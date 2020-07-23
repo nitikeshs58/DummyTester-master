@@ -6,6 +6,7 @@ namespace Test
 {
     public class Class1
     {
+
         public Class1(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
